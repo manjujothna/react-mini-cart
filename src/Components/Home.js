@@ -8,7 +8,7 @@ const Home = ()=>
     console.warn(data.productData);
     return(
         <>
-        <h1 className="text-center mt-3">All Items</h1>
+        <h1 className="text-center mt-3">React Mini Cart</h1>
         <section className="py-4 container">
             <div className="row justify-content-center">
                 {
