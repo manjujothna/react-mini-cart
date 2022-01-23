@@ -29,7 +29,7 @@ return(
                             <img src={item.img} style={{height: "6rem"}}/>
                         </td>
                         <td>{item.title}</td>
-                        <td>{item.price}</td>
+                        <td>${item.price}</td>
                         <td>Quantity({item.quantity})</td>
                         <td>
                            <button className="btn btn-info ms-2" 
